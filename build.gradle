@@ -33,9 +33,6 @@ configurations {
 	providedRuntime
 }
 
-task wrapper(type: Wrapper) {
-	gradleVersion = '2.0'
-}
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
